@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+.navegacion{
+    width: 800px;
+    margin: 30px auto;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 285px;
+    right: 150px;
+   
+}
+.navegacion ul{
+list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family:'open sans';
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #ce7d35;
+    transition: all.3s;
+}
+.imagen{
+    position:relative;
+    bottom: 12px;
+    left: 920px;
+}
+h1{
+    position:relative;
+    bottom: 300px;
+}
+
+.center{
+    position: relative;
+    bottom: 300px;
+}
+.fresa{
+    position: relative;
+    left: 800px;
+    bottom: 150px;
+}
+.zanahoria{
+    position: relative;
+    left: 500px;
+    bottom: 400px;
+}
+.chocolate{
+    position: relative;
+    left: 300px;
+    bottom:600px ;
+}
+.leche{
+    position: relative;
+    left: 100px;
+    bottom: 680px;
+}
+.portada{
+    position: relative;
+    bottom: 100px;
+}
